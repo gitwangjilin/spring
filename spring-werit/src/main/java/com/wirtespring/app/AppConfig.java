@@ -1,8 +1,6 @@
-package com.spring.config;
+package com.wirtespring.app;
 
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Lazy;
+import com.wirtespring.spring.ComponentScan;
 
 /*************************************************************************
  ******
@@ -15,10 +13,9 @@ import org.springframework.context.annotation.Lazy;
  *
  * - History:
  * Date        Author          Modification
- * 2022/6/8   WangJiLin     Create the current class
+ * 2022/9/14   WangJiLin     Create the current class
  *************************************************************************
  ******/
-@Configuration
-@ComponentScan("com.spring")
+@ComponentScan("com.wirtespring.app.service")
 public class AppConfig {
 }

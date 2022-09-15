@@ -1,12 +1,11 @@
-package com.spring.classinit;
+package com.wirtespring.app.service;
 
-import jakarta.annotation.PostConstruct;
-import org.springframework.stereotype.Component;
+import com.wirtespring.spring.Component;
 
 /*************************************************************************
  ******
  * - Copyright (c) 2022 shangzhao.com
- * - File Name: PostConstructInit
+ * - File Name: UserService
  * - @Author: WangJiLIn
  * - Description:
  * 接⼝描述
@@ -14,13 +13,13 @@ import org.springframework.stereotype.Component;
  *
  * - History:
  * Date        Author          Modification
- * 2022/9/9   WangJiLin     Create the current class
+ * 2022/9/14   WangJiLin     Create the current class
  *************************************************************************
  ******/
 @Component
-public class PostConstructInit {
-	@PostConstruct
-	public void init(){
-		System.out.println("====PostConstruct====");
+public class OrderService {
+
+	public void test() {
+		System.out.println("test");
 	}
 }
